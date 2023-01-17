@@ -1,0 +1,51 @@
+﻿@model IEnumerable<WVO.Models.Ders>
+@{
+    <div class="text-center">
+        <h1 style="background-color:DodgerBlue;" class="display-4">Ders listele</h1>
+    </div>
+}
+<table class="table">
+    <thead>
+            <tr>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Kredisi)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.OkulYönetimId)
+            </th>
+            <th style="background-color:#992600">
+                @Html.DisplayNameFor(model => model.Controler)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Ad)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Kredisi)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.OkulYönetimId)
+                </td>
+                <td style="background-color:#992600">
+                    @Html.ActionLink("Guncelle", "DersDetay", new {  id=item.Id  })  |
+                    @Html.ActionLink("Detaylist", "DersDetay", new {  id=item.Id  }) |
+                    @Html.ActionLink("Sil", "DersSil", new {  id=item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

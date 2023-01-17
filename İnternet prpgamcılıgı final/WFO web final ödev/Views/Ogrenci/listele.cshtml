@@ -1,0 +1,69 @@
+﻿@model IEnumerable<WVO.Models.Ogrenci>
+@{
+    <div class="text-center">
+        <h1 style="background-color:DodgerBlue;" class="display-4">Öğrenci listele</h1>
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Soyad)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.KayitTarih)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.ÖgrenciNo)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.DTarih)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Bolum)
+            </th>
+            <th style="background-color:#992600">
+                @Html.DisplayNameFor(model => model.Controler)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Ad)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Soyad)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.KayitTarih)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.ÖgrenciNo)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.DTarih)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Bolum)
+                </td>
+                <td style="background-color:#992600">
+                    @Html.ActionLink("Guncelle", "OgrenciDetay", new {  id=item.Id  }) |
+                    @Html.ActionLink("Detalits", "OgrenciDetay", new {  id=item.Id  }) |
+                    @Html.ActionLink("Sil", "OgrenciSil", new {  id=item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

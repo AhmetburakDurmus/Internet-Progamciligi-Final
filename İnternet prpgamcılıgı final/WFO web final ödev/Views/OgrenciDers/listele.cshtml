@@ -1,0 +1,87 @@
+﻿@model IEnumerable<WVO.Models.OgrenciDers>
+@{
+    <div class="text-center">
+        <h1 style="background-color:DodgerBlue;" class="display-4">Öğrenci listele</h1>
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Soyad)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.KayitTarih)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.ÖgrenciNo)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.DTarih)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Bolum)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.DersAd)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.Kredisi)
+            </th>
+            <th style="background-color:#ffff00;">
+                @Html.DisplayNameFor(model => model.OkulYonetimId)
+            </th>
+            <th style="background-color:#992600">
+                @Html.DisplayNameFor(model => model.Controler)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Ad)
+                </td style="background-color:#00cc00">
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Soyad)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.KayitTarih)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.ÖgrenciNo)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.DTarih)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Bolum)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.DersAd)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.Kredisi)
+                </td>
+                <td style="background-color:#00cc00">
+                    @Html.DisplayFor(modelItem => item.OkulYonetimId)
+                </td>
+                <td style="background-color:#992600">
+                    @Html.ActionLink("Guncelle", "OgrenciDersDetay", new {  id=item.Id  }) |
+                    @Html.ActionLink("Detalis", "OgrenciDersDetay", new {  id=item.Id  })  |
+                    @Html.ActionLink("Sil", "OgrenciDersSil", new {  id=item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WVO
+build_property.RootNamespace = WVO
+build_property.ProjectDir = C:\Users\kerem\Downloads\WVOdüzenlenecek\WVOD\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\kerem\Downloads\WVOdüzenlenecek\WVOD
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ders/DersDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xEZXJzRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ders/Derssayfası.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xEZXJzc2F5ZmFzxLEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ders/DersSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xEZXJzU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ders/listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xsaXN0ZWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ders/Yeni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVyc1xZZW5pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/OgrenciDers/listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaURlcnNcbGlzdGVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/OgrenciDers/OgrenciDersDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaURlcnNcT2dyZW5jaURlcnNEZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/OgrenciDers/OgrenciDerssayfası.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaURlcnNcT2dyZW5jaURlcnNzYXlmYXPEsS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/OgrenciDers/OgrenciDersSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaURlcnNcT2dyZW5jaURlcnNTaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/OgrenciDers/Yeni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaURlcnNcWWVuaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ogrenci/listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxsaXN0ZWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ogrenci/OgrenciDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxPZ3JlbmNpRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ogrenci/Ogrencisayfası.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxPZ3JlbmNpc2F5ZmFzxLEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ogrenci/OgrenciSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxPZ3JlbmNpU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Ogrenci/Yeni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2dyZW5jaVxZZW5pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Yonetim/listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxsaXN0ZWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Yonetim/Yeni.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxZZW5pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Yonetim/YonetimDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxZb25ldGltRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Yonetim/Yonetimsayfası.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxZb25ldGltc2F5ZmFzxLEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Yonetim/YonetimSil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxZb25ldGltU2lsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Downloads/WVOdüzenlenecek/WVOD/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-px8wdifzn5
